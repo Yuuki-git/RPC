@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5cbf53ed-0869-469d-8cf3-a785edc49cb5" name="Default Changelist" comment="v6:负载均衡">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yk/client/SimpleRPCClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yk/client/SimpleRPCClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yk/netty/NettyServerStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yk/netty/NettyServerStart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yk/netty/NettyServerStart2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yk/netty/NettyServerStart2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yk/netty/NettyServerStart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yk/netty/NettyServerStart.class" afterDir="false" />
+    </list>
+    <list id="02398dc4-2239-4b15-a980-e4f3d5302ebc" name="Revert &quot;v2:代码解耦&quot;" comment="Revert &quot;v2:代码解耦&quot;&#10;&#10;This reverts commit eb4ba392" />
+    <list id="ef40f41f-a399-496f-a988-f0f5f6e7bd9e" name="Revert &quot;v3:netty的使用&quot;" comment="Revert &quot;v3:netty的使用&quot;&#10;&#10;This reverts commit f31cc883" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="F:\tools\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1vTX2RTwSrs9aUyK251igq960Te" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.yk.serializer" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.NettyClientStart">
+    <configuration name="NettyClientStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yk.netty.NettyClientStart" />
+      <module name="RPC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yk.netty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyServerStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yk.netty.NettyServerStart" />
+      <module name="RPC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yk.netty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyServerStart2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yk.netty.NettyServerStart2" />
+      <module name="RPC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yk.netty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleRPCClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yk.client.SimpleRPCClient" />
+      <module name="RPC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yk.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yk.server.TestServer" />
+      <module name="RPC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yk.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NettyClientStart" />
+        <item itemvalue="Application.NettyServerStart" />
+        <item itemvalue="Application.NettyServerStart2" />
+        <item itemvalue="Application.SimpleRPCClient" />
+        <item itemvalue="Application.TestServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5cbf53ed-0869-469d-8cf3-a785edc49cb5" name="Default Changelist" comment="" />
+      <created>1626586846321</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626586846321</updated>
+      <workItem from="1626586847497" duration="4209000" />
+      <workItem from="1626592391553" duration="7226000" />
+      <workItem from="1626680994339" duration="869000" />
+      <workItem from="1626695729237" duration="454000" />
+      <workItem from="1626767335183" duration="8777000" />
+      <workItem from="1627020743759" duration="8575000" />
+      <workItem from="1627128703370" duration="26000" />
+      <workItem from="1628149982649" duration="4732000" />
+      <workItem from="1628215422587" duration="5000" />
+      <workItem from="1628235131934" duration="11946000" />
+      <workItem from="1628499764030" duration="6152000" />
+      <workItem from="1628513679744" duration="105000" />
+      <workItem from="1628752259046" duration="9396000" />
+      <workItem from="1628840069807" duration="5220000" />
+      <workItem from="1629111220340" duration="678000" />
+      <workItem from="1629114376054" duration="618000" />
+      <workItem from="1629181477950" duration="1110000" />
+      <workItem from="1629851896178" duration="300000" />
+      <workItem from="1630916525751" duration="12000" />
+      <workItem from="1631859352656" duration="14000" />
+      <workItem from="1632039396303" duration="815000" />
+    </task>
+    <task id="LOCAL-00001" summary="v1">
+      <created>1626599265591</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1626599265591</updated>
+    </task>
+    <task id="LOCAL-00002" summary="v2:代码解耦">
+      <created>1626776015714</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1626776015714</updated>
+    </task>
+    <task id="LOCAL-00003" summary="v3:netty的使用">
+      <created>1627028876592</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1627028876592</updated>
+    </task>
+    <task id="LOCAL-00004" summary="v4:序列化方式以及比较,自定义协议,TCP粘包问题">
+      <created>1628503231019</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1628503231019</updated>
+    </task>
+    <task id="LOCAL-00005" summary="v4:序列化方式以及比较,自定义协议,TCP粘包问题">
+      <created>1628503591889</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1628503591889</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Revert &quot;v3:netty的使用&quot;&#10;&#10;This reverts commit 73e65274">
+      <created>1628504866716</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1628504866716</updated>
+    </task>
+    <task id="LOCAL-00007" summary="v3:netty的使用">
+      <created>1628505037837</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1628505037837</updated>
+    </task>
+    <task id="LOCAL-00008" summary="v4:序列化方式以及比较,自定义协议,TCP粘包问题">
+      <created>1628505898720</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1628505898720</updated>
+    </task>
+    <task id="LOCAL-00009" summary="v5:注册中心的实现(zookeeper)">
+      <created>1628763297842</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1628763297843</updated>
+    </task>
+    <task id="LOCAL-00010" summary="v6:负载均衡">
+      <created>1628846007838</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1628846007838</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v1" />
+    <MESSAGE value="v2:代码解耦" />
+    <MESSAGE value="Revert &quot;v3:netty的使用&quot;&#10;&#10;This reverts commit 73e65274" />
+    <MESSAGE value="v3:netty的使用" />
+    <MESSAGE value="v4:序列化方式以及比较,自定义协议,TCP粘包问题" />
+    <MESSAGE value="v5:注册中心的实现(zookeeper)" />
+    <MESSAGE value="v6:负载均衡" />
+    <option name="LAST_COMMIT_MESSAGE" value="v6:负载均衡" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="312" y="11" key="#Project_Structure" timestamp="1626586896779">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="312" y="11" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1626586896779" />
+    <state x="718" y="179" key="#com.intellij.ide.util.MemberChooser" timestamp="1628842009606">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="718" y="179" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1628842009606" />
+    <state x="655" y="173" key="#xdebugger.evaluate" timestamp="1628501365019">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="655" y="173" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1628501365019" />
+    <state x="469" y="28" key="CommitChangelistDialog2" timestamp="1628505150620">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="469" y="28" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1628505150620" />
+    <state width="511" height="582" key="DebuggerActiveHint" timestamp="1628501806410">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="511" height="582" key="DebuggerActiveHint/0.0.1920.1080@0.0.1920.1080" timestamp="1628501806410" />
+    <state x="687" y="236" key="FileChooserDialogImpl" timestamp="1631859364022">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="687" y="236" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1631859364022" />
+    <state width="1867" height="275" key="GridCell.Tab.0.bottom" timestamp="1629182589120">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1867" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1629182589120" />
+    <state width="1867" height="275" key="GridCell.Tab.0.center" timestamp="1629182589120">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1867" height="275" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1629182589120" />
+    <state width="1867" height="275" key="GridCell.Tab.0.left" timestamp="1629182589119">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1867" height="275" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1629182589119" />
+    <state width="1867" height="275" key="GridCell.Tab.0.right" timestamp="1629182589120">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1867" height="275" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1629182589120" />
+    <state width="1867" height="215" key="GridCell.Tab.1.bottom" timestamp="1628505917922">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1867" height="215" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1628505917922" />
+    <state width="1867" height="215" key="GridCell.Tab.1.center" timestamp="1628505917922">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1867" height="215" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1628505917922" />
+    <state width="1867" height="215" key="GridCell.Tab.1.left" timestamp="1628505917922">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1867" height="215" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1628505917922" />
+    <state width="1867" height="215" key="GridCell.Tab.1.right" timestamp="1628505917922">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1867" height="215" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1628505917922" />
+    <state x="693" y="180" width="1171" height="843" key="Maven.ArtifactSearchDialog" timestamp="1628154395919">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="693" y="180" width="1171" height="843" key="Maven.ArtifactSearchDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1628154395919" />
+    <state x="509" y="244" key="MultipleFileMergeDialog" timestamp="1628504836135">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="509" y="244" key="MultipleFileMergeDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1628504836135" />
+    <state x="585" y="169" width="1016" height="713" key="Vcs.Push.Dialog.v2" timestamp="1628846010214">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="585" y="169" width="1016" height="713" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1628846010214" />
+    <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1628505612464">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1628505612464" />
+    <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1628504460431">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1628504460431" />
+    <state x="750" y="412" key="git4idea.ui.GitResetDialog" timestamp="1628505512545">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="750" y="412" key="git4idea.ui.GitResetDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1628505512545" />
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1628841935098">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1628841935098" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/yk/register/impl/ZkServiceRegister.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
